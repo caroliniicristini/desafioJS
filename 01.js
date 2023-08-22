@@ -1,4 +1,3 @@
-function numeros(){
     let primeiroNumero = parseInt(prompt("Digite um número"));
     let segundoNumero = parseInt(prompt("Digite o segundo número"))    
  
@@ -9,6 +8,5 @@ function numeros(){
     let diferenca = Math.abs(primeiroNumero - segundoNumero)
 
     alert(`O maior numero é ${maiorNumero} e a diferença é de ${diferenca}`)
-}
 
-numeros()
+
