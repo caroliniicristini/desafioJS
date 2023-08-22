@@ -3,12 +3,10 @@ let emprestimo = prompt("Digite o valor do empréstimo que deseja")
 
 let valorPrestacao = salario * 0.3 
 
-
-console.log(valorPrestacao)
-if(valorPrestacao > emprestimo){
-    alert("Emprestimo concedido!")
+if(emprestimo > valorPrestacao){
+    alert("Emprestimo não concedido")
 } else{
-    alert("Emprestimo negado!")
+    alert("Emprestimo concedido!")
 }
 
 
