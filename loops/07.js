@@ -1,13 +1,13 @@
  function toSquare(){
 
-    let space = ''
+    let line = ''
 
     for(let i = 1; i <= 10; i++){
 
-        space += (i * i) + ', '
+        line += (i * i) + ', '
       
     }
-    console.log(space.slice(0, -2))
+    console.log(line.slice(0, -2))
  }
 
  toSquare()

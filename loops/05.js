@@ -1,8 +1,12 @@
 function fromNegativeToPositive(){
 
+    let line = '';
+
+
     for(let i = -10; i <= 0; i++){
-        console.log(i);
+        line += i + ', ';
     }
+    console.log(line.slice(0, -2))
 
 }
 

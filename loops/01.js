@@ -42,9 +42,19 @@
 // console.log("O loop acabou")
 
 
+//SLICE: sequencia.slice(inicio, fim);
+// 0 é o índice onde o corte começa (no início da string).
+// -2 é o índice onde o corte termina, contando de trás para frente a partir do final da string. Ele indica para cortar dois caracteres antes do final.
+
+
 function renderUpToTwnty(){
+
+    let line = ''
+
     for(let i = 0; i <= 20; i++){
-        console.log(i)
+       line += i + ', '
     }
+
+    console.log(line.slice(0, -2))
 }
 renderUpToTwnty()
