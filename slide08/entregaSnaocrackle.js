@@ -22,7 +22,7 @@ function snapCrackle(maxValue){
             string += 'SnapCrackle'
         }
         if(i  % 2 === 1 && i % 5 !== 0){
-            
+
             if (string !== '') {
                 string += ', ';
             }
@@ -32,4 +32,4 @@ function snapCrackle(maxValue){
     return string
 }
 
-console.log(snapCrackle(15))
+console.log(snapCrackle(15))                         
