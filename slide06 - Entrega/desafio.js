@@ -12,7 +12,7 @@ function verificarPalpite(numeroAleatorio){
     while(true){
 
         let palpite = parseInt(prompt("Digite um número aleatório"))
-        const numeroAleatorio = gerarNumeroAleatorio();
+         numeroAleatorio = gerarNumeroAleatorio();
 
         if(palpite > 20 || palpite < 1) {
             alert("NUMERO INVÁLIDO! Digite um numero válido entre 1 e 20")

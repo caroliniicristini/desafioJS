@@ -3,10 +3,8 @@
     volume: 0
  }
 
-
  function aumentarVolume(televisao){
    
-
     if(televisao.volume < 10) {
 
         televisao.volume++;
@@ -43,9 +41,7 @@ function mudarCanalPraCima(televisao){
       }
 }
 
-
 // console.log(mudarCanalPraCima(televisao))
-
 
 function consultarCanal(televisao){
     return televisao.canalAtual
