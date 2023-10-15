@@ -25,3 +25,7 @@ function power(x, n){
 }
 
 console.log(power(5, 3))
+
+function factorial(x){
+    
+}

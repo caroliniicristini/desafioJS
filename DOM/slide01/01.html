@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body>
+        <h1 class="title">Aprendendo DOM</h1>
+        <h3 class="title">Aprendendo DOM</h3>
+        <form></form>
+        <script>
+        //    let idTitle = document.getElementById("title")
+        //    console.log(idTitle)
+
+        // let id = document.querySelector('.title')
+        // console.log(id)
+
+        // const p = document.createElement('p')
+        // p.innerHTML = 'Carol está com sono'
+        // document.querySelector('body').appendChild(p)
+        // console.log(p)
+
+        const input = document.createElement('input')
+        input.placeholder = 'Será'
+
+        const form  = document.querySelector('form')
+        form.appendChild(input)
+
+        const article = document.createElement('article')
+        const h1 = document.createElement('h1')
+        h1.innerHTML = 'Titulo do Post'
+        const p = document.createElement('p')
+        p.innerText = 'Descriçaõ do post'
+        const a = document.createElement('a')
+        a.innerHTML = 'Ver post completo'
+        article.appendChild(h1)
+        article.appendChild(p)
+        article.appendChild(a)
+
+        document.querySelector('body').appendChild(article)
+        console.log(article)
+        </script>
+    </body>
+</html>
+
